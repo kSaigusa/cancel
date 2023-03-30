@@ -5,9 +5,9 @@ $(function () {
         var result = $('input[name="result"]:checked').val();
 
         if (result == "はい"){
-            var msg = `注文をキャンセル`;
+            var msg = `キャンセルする`;
         }else{
-            var msg = `キャンセルいたしませんでした`;
+            var msg = `キャンセルしない`;
         }
         
         sendText(msg);

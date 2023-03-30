@@ -5,7 +5,7 @@ $(function () {
         var result = $('input[name="result"]:checked').val();
 
         if (straw == "はい"){
-             var msg = `キャンセルを承りました`;
+             var msg = `注文をキャンセル`;
         }
         sendText(msg);
 
